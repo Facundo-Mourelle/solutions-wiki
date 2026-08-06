@@ -1,4 +1,4 @@
-baseURL = 'https://github.com/Facundo-Mourelle/solutions-wiki/'
+baseURL = 'https://facundo-mourelle.github.io/solutions-wiki/'
 locale = 'en-us'
 title = 'Solutions Wiki'
 theme = 'PaperMod'
@@ -27,7 +27,7 @@ theme = 'PaperMod'
 
 [[params.socialIcons]]
   name = 'github'
-  url = 'https://github.com/YOUR_USERNAME'
+  url = 'https://github.com/Facundo-Mourelle'
 
 [menu]
   [[menu.main]]

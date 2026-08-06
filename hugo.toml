@@ -14,20 +14,12 @@ theme = 'PaperMod'
   ShowWordCount = true
   ShowRssButtonInSectionTermList = true
   UseHugoToc = true
-  disableSpecial1stPost = false
+  disableSpecial1stPost = true
   hidemeta = false
   hideSummary = false
   showtoc = true
   tocopen = true
   comments = false
-
-[params.homeInfoParams]
-  Title = 'Solutions Wiki'
-  Content = ' Problems solved, knowledge gained. Search or browse below.'
-
-[[params.socialIcons]]
-  name = 'github'
-  url = 'https://github.com/Facundo-Mourelle'
 
 [menu]
   [[menu.main]]
@@ -62,6 +54,6 @@ theme = 'PaperMod'
   [markup.highlight]
     noClasses = true
     lineNos = false
-    style = 'dracula'
+    style = 'nord'
   [markup.goldmark.renderer]
     unsafe = true

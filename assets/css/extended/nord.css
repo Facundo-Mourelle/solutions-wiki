@@ -1,0 +1,25 @@
+:root {
+    --theme: #eceff4;
+    --entry: #e5e9f0;
+    --primary: #2e3440;
+    --secondary: #4c566a;
+    --tertiary: #d8dee9;
+    --content: #2e3440;
+    --code-block-bg: #3b4252;
+    --code-bg: #e5e9f0;
+    --border: #d8dee9;
+    color-scheme: light;
+}
+
+:root[data-theme="dark"] {
+    --theme: #2e3440;
+    --entry: #3b4252;
+    --primary: #d8dee9;
+    --secondary: #81a1c1;
+    --tertiary: #434c5e;
+    --content: #eceff4;
+    --code-block-bg: #3b4252;
+    --code-bg: #434c5e;
+    --border: #4c566a;
+    color-scheme: dark;
+}

@@ -1,0 +1,67 @@
+baseURL = 'https://github.com/Facundo-Mourelle/solutions-wiki/'
+locale = 'en-us'
+title = 'Solutions Wiki'
+theme = 'PaperMod'
+
+[params]
+  env = 'production'
+  defaultTheme = 'dark'
+  ShowShareButtons = false
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  disableSpecial1stPost = false
+  hidemeta = false
+  hideSummary = false
+  showtoc = true
+  tocopen = true
+  comments = false
+
+[params.homeInfoParams]
+  Title = 'Solutions Wiki'
+  Content = ' Problems solved, knowledge gained. Search or browse below.'
+
+[[params.socialIcons]]
+  name = 'github'
+  url = 'https://github.com/YOUR_USERNAME'
+
+[menu]
+  [[menu.main]]
+    identifier = 'problems'
+    name = 'Problems'
+    url = '/problems/'
+    weight = 10
+  [[menu.main]]
+    identifier = 'categories'
+    name = 'Categories'
+    url = '/categories/'
+    weight = 20
+  [[menu.main]]
+    identifier = 'tags'
+    name = 'Tags'
+    url = '/tags/'
+    weight = 30
+  [[menu.main]]
+    identifier = 'search'
+    name = 'Search'
+    url = '/search/'
+    weight = 40
+
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+
+[markup]
+  [markup.highlight]
+    noClasses = true
+    lineNos = false
+    style = 'dracula'
+  [markup.goldmark.renderer]
+    unsafe = true
